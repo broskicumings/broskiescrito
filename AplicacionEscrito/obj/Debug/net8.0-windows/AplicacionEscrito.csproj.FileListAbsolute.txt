@@ -75,3 +75,4 @@ C:\Users\Usuario\Desktop\AplicacionEscrito\AplicacionEscrito\obj\Debug\net8.0-wi
 C:\Users\Usuario\Desktop\AplicacionEscrito\AplicacionEscrito\obj\Debug\net8.0-windows\AplicacionEscrito.genruntimeconfig.cache
 C:\Users\Usuario\Desktop\AplicacionEscrito\AplicacionEscrito\obj\Debug\net8.0-windows\ref\AplicacionEscrito.dll
 C:\Users\Usuario\Desktop\AplicacionEscrito\AplicacionEscrito\obj\Debug\net8.0-windows\AplicacionEscrito.Properties.Resources.resources
+C:\Users\Usuario\Desktop\AplicacionEscrito\AplicacionEscrito\obj\Debug\net8.0-windows\AplicacionEscrito.sourcelink.json

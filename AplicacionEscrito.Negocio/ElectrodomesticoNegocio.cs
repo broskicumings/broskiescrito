@@ -4,28 +4,28 @@ using System.Collections.Generic;
 
 namespace AplicacionEscrito.Negocio
 {
-    public class ElectrodomesticoNegocio
+    public class PropiedadNegocio
     {
-        private readonly ElectrodomesticoDatos electrodomesticoDatos = new ElectrodomesticoDatos();
+        private readonly PropiedadDatos propiedadDatos = new PropiedadDatos();
 
-        public List<Electrodomestico> ObtenerElectrodomesticos()
+        public List<Propiedad> ObtenerPropiedades()
         {
-            return electrodomesticoDatos.ObtenerElectrodomesticos();
+            return propiedadDatos.ObtenerPropiedades();
         }
 
-        public bool AgregarElectrodomestico(Electrodomestico electrodomestico)
+        public bool AgregarPropiedad(Propiedad propiedad)
         {
-            return electrodomesticoDatos.InsertarElectrodomestico(electrodomestico);
+            return propiedadDatos.InsertarPropiedad(propiedad);
         }
 
-        public bool ModificarElectrodomestico(Electrodomestico electrodomestico)
+        public bool ModificarPropiedad(Propiedad propiedad)
         {
-            return electrodomesticoDatos.ModificarElectrodomestico(electrodomestico);
+            return propiedadDatos.ModificarPropiedad(propiedad);
         }
 
-        public bool EliminarElectrodomestico(int id)
+        public bool EliminarPropiedad(int id)
         {
-            return electrodomesticoDatos.EliminarElectrodomestico(id);
+            return propiedadDatos.EliminarPropiedad(id);
         }
     }
 }

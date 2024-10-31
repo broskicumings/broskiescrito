@@ -4,60 +4,63 @@ using System.Collections.Generic;
 
 namespace AplicacionEscrito.Datos
 {
-    public class ElectrodomesticoDatos
+    public class PropiedadDatos
     {
-        private readonly string connectionString = "Server=localhost;Database=ESCRITOFUERTE;Uid=root;Pwd=12345;";
+        private readonly string connectionString = "Server=localhost;Database=Inmobiliarias;Uid=root;Pwd=12345;";
 
-        public List<Electrodomestico> ObtenerElectrodomesticos()
+        public List<Propiedad> ObtenerPropiedades()
         {
-            var electrodomesticos = new List<Electrodomestico>();
+            var propiedades = new List<Propiedad>();
             using var connection = new MySqlConnection(connectionString);
             connection.Open();
-            using var command = new MySqlCommand("SELECT * FROM Electrodomesticos", connection);
+            using var command = new MySqlCommand("SELECT * FROM Propiedades", connection);
             using var reader = command.ExecuteReader();
             while (reader.Read())
             {
-                var electrodomestico = new Electrodomestico
+                var propiedad = new Propiedad
                 {
                     Id = reader.GetInt32("Id"),
-                    Nombre = reader.GetString("Nombre"),
+                    Direccion = reader.GetString("Direccion"),
                     Precio = reader.GetInt32("Precio"),
-                    Marca = reader.GetString("Marca")
+                    Tipo = (TipoPropiedad)Enum.Parse(typeof(TipoPropiedad), reader.GetString("Tipo")),
+                    MetrosCuadrados = reader.GetString("Metros_Cuadrados")
                 };
-                electrodomesticos.Add(electrodomestico);
+                propiedades.Add(propiedad);
             }
-            return electrodomesticos;
+            return propiedades;
         }
 
-        public bool InsertarElectrodomestico(Electrodomestico electrodomestico)
+        public bool InsertarPropiedad(Propiedad propiedad)
         {
             using var connection = new MySqlConnection(connectionString);
             connection.Open();
-            using var command = new MySqlCommand("INSERT INTO Electrodomesticos (Id, Nombre, Precio, Marca) VALUES (@Id, @Nombre, @Precio, @Marca)", connection);
-            command.Parameters.AddWithValue("@Id", electrodomestico.Id);
-            command.Parameters.AddWithValue("@Nombre", electrodomestico.Nombre);
-            command.Parameters.AddWithValue("@Precio", electrodomestico.Precio);
-            command.Parameters.AddWithValue("@Marca", electrodomestico.Marca);
+            using var command = new MySqlCommand("INSERT INTO Propiedades (Id, Direccion, Precio, Tipo, Metros_Cuadrados) VALUES (@Id, @Direccion, @Precio, @Tipo, @MetrosCuadrados)", connection);
+            command.Parameters.AddWithValue("@Id", propiedad.Id);
+            command.Parameters.AddWithValue("@Direccion", propiedad.Direccion);
+            command.Parameters.AddWithValue("@Precio", propiedad.Precio);
+            command.Parameters.AddWithValue("@Tipo", propiedad.Tipo.ToString());
+            command.Parameters.AddWithValue("@MetrosCuadrados", propiedad.MetrosCuadrados);
             return command.ExecuteNonQuery() > 0;
         }
 
-        public bool ModificarElectrodomestico(Electrodomestico electrodomestico)
+        public bool ModificarPropiedad(Propiedad propiedad)
         {
             using var connection = new MySqlConnection(connectionString);
             connection.Open();
-            using var command = new MySqlCommand("UPDATE Electrodomesticos SET Nombre = @Nombre, Precio = @Precio, Marca = @Marca WHERE Id = @Id", connection);
-            command.Parameters.AddWithValue("@Id", electrodomestico.Id);
-            command.Parameters.AddWithValue("@Nombre", electrodomestico.Nombre);
-            command.Parameters.AddWithValue("@Precio", electrodomestico.Precio);
-            command.Parameters.AddWithValue("@Marca", electrodomestico.Marca);
+            using var command = new MySqlCommand("UPDATE Propiedades SET Direccion = @Direccion, Precio = @Precio, Tipo = @Tipo, Metros_Cuadrados = @MetrosCuadrados WHERE Id = @Id", connection);
+            command.Parameters.AddWithValue("@Id", propiedad.Id);
+            command.Parameters.AddWithValue("@Direccion", propiedad.Direccion);
+            command.Parameters.AddWithValue("@Precio", propiedad.Precio);
+            command.Parameters.AddWithValue("@Tipo", propiedad.Tipo.ToString());
+            command.Parameters.AddWithValue("@MetrosCuadrados", propiedad.MetrosCuadrados);
             return command.ExecuteNonQuery() > 0;
         }
 
-        public bool EliminarElectrodomestico(int id)
+        public bool EliminarPropiedad(int id)
         {
             using var connection = new MySqlConnection(connectionString);
             connection.Open();
-            using var command = new MySqlCommand("DELETE FROM Electrodomesticos WHERE Id = @Id", connection);
+            using var command = new MySqlCommand("DELETE FROM Propiedades WHERE Id = @Id", connection);
             command.Parameters.AddWithValue("@Id", id);
             return command.ExecuteNonQuery() > 0;
         }

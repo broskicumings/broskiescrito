@@ -22,3 +22,4 @@ C:\Users\Usuario\Desktop\AplicacionEscrito\AplicacionEscrito.Entidad\obj\Debug\n
 C:\Users\Usuario\Desktop\AplicacionEscrito\AplicacionEscrito.Entidad\obj\Debug\net8.0\refint\AplicacionEscrito.Entidad.dll
 C:\Users\Usuario\Desktop\AplicacionEscrito\AplicacionEscrito.Entidad\obj\Debug\net8.0\AplicacionEscrito.Entidad.pdb
 C:\Users\Usuario\Desktop\AplicacionEscrito\AplicacionEscrito.Entidad\obj\Debug\net8.0\ref\AplicacionEscrito.Entidad.dll
+C:\Users\Usuario\Desktop\AplicacionEscrito\AplicacionEscrito.Entidad\obj\Debug\net8.0\AplicacionEscrito.Entidad.sourcelink.json

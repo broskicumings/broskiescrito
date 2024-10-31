@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\AplicacionEscrito\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{136A7EE4-8809-40B4-94B4-A255B5EADA66}|AplicacionEscrito\\AplicacionEscrito.csproj|c:\\users\\usuario\\desktop\\aplicacionescrito\\aplicacionescrito\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{136A7EE4-8809-40B4-94B4-A255B5EADA66}|AplicacionEscrito\\AplicacionEscrito.csproj|c:\\users\\usuario\\desktop\\aplicacionescrito\\aplicacionescrito\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{136A7EE4-8809-40B4-94B4-A255B5EADA66}|AplicacionEscrito\\AplicacionEscrito.csproj|solutionrelative:aplicacionescrito\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{136A7EE4-8809-40B4-94B4-A255B5EADA66}|AplicacionEscrito\\AplicacionEscrito.csproj|c:\\users\\usuario\\desktop\\aplicacionescrito\\aplicacionescrito\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{136A7EE4-8809-40B4-94B4-A255B5EADA66}|AplicacionEscrito\\AplicacionEscrito.csproj|solutionrelative:aplicacionescrito\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{136A7EE4-8809-40B4-94B4-A255B5EADA66}|AplicacionEscrito\\AplicacionEscrito.csproj|C:\\Users\\Usuario\\Desktop\\AplicacionEscrito\\aplicacionescrito\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{136A7EE4-8809-40B4-94B4-A255B5EADA66}|AplicacionEscrito\\AplicacionEscrito.csproj|solutionrelative:aplicacionescrito\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -15,28 +23,20 @@
       "RelativeMoniker": "D:0:0:{969D2BAD-2DEA-4322-9F30-8B5FCF6BDEE3}|AplicacionEscrito.Datos\\AplicacionEscrito.Datos.csproj|solutionrelative:aplicacionescrito.datos\\electrodomesticodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{136A7EE4-8809-40B4-94B4-A255B5EADA66}|AplicacionEscrito\\AplicacionEscrito.csproj|c:\\users\\usuario\\desktop\\aplicacionescrito\\aplicacionescrito\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{136A7EE4-8809-40B4-94B4-A255B5EADA66}|AplicacionEscrito\\AplicacionEscrito.csproj|solutionrelative:aplicacionescrito\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{646C184A-F5CD-4FEF-B99B-2D4BE8893D17}|AplicacionEscrito.Negocio\\AplicacionEscrito.Negocio.csproj|c:\\users\\usuario\\desktop\\aplicacionescrito\\aplicacionescrito.negocio\\ventanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{646C184A-F5CD-4FEF-B99B-2D4BE8893D17}|AplicacionEscrito.Negocio\\AplicacionEscrito.Negocio.csproj|solutionrelative:aplicacionescrito.negocio\\ventanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{646C184A-F5CD-4FEF-B99B-2D4BE8893D17}|AplicacionEscrito.Negocio\\AplicacionEscrito.Negocio.csproj|c:\\users\\usuario\\desktop\\aplicacionescrito\\aplicacionescrito.negocio\\electrodomesticonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{646C184A-F5CD-4FEF-B99B-2D4BE8893D17}|AplicacionEscrito.Negocio\\AplicacionEscrito.Negocio.csproj|solutionrelative:aplicacionescrito.negocio\\electrodomesticonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{39D5D9C9-058D-434D-953C-50CDC6071EF3}|AplicacionEscrito.Entidad\\AplicacionEscrito.Entidad.csproj|c:\\users\\usuario\\desktop\\aplicacionescrito\\aplicacionescrito.entidad\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{39D5D9C9-058D-434D-953C-50CDC6071EF3}|AplicacionEscrito.Entidad\\AplicacionEscrito.Entidad.csproj|solutionrelative:aplicacionescrito.entidad\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{646C184A-F5CD-4FEF-B99B-2D4BE8893D17}|AplicacionEscrito.Negocio\\AplicacionEscrito.Negocio.csproj|c:\\users\\usuario\\desktop\\aplicacionescrito\\aplicacionescrito.negocio\\ventanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{646C184A-F5CD-4FEF-B99B-2D4BE8893D17}|AplicacionEscrito.Negocio\\AplicacionEscrito.Negocio.csproj|solutionrelative:aplicacionescrito.negocio\\ventanegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{136A7EE4-8809-40B4-94B4-A255B5EADA66}|AplicacionEscrito\\AplicacionEscrito.csproj|c:\\users\\usuario\\desktop\\aplicacionescrito\\aplicacionescrito\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{136A7EE4-8809-40B4-94B4-A255B5EADA66}|AplicacionEscrito\\AplicacionEscrito.csproj|solutionrelative:aplicacionescrito\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{39D5D9C9-058D-434D-953C-50CDC6071EF3}|AplicacionEscrito.Entidad\\AplicacionEscrito.Entidad.csproj|c:\\users\\usuario\\desktop\\aplicacionescrito\\aplicacionescrito.entidad\\electrodomestico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{39D5D9C9-058D-434D-953C-50CDC6071EF3}|AplicacionEscrito.Entidad\\AplicacionEscrito.Entidad.csproj|solutionrelative:aplicacionescrito.entidad\\electrodomestico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{646C184A-F5CD-4FEF-B99B-2D4BE8893D17}|AplicacionEscrito.Negocio\\AplicacionEscrito.Negocio.csproj|c:\\users\\usuario\\desktop\\aplicacionescrito\\aplicacionescrito.negocio\\electrodomesticonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{646C184A-F5CD-4FEF-B99B-2D4BE8893D17}|AplicacionEscrito.Negocio\\AplicacionEscrito.Negocio.csproj|solutionrelative:aplicacionescrito.negocio\\electrodomesticonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,29 +46,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\AplicacionEscrito\\AplicacionEscrito\\Form1.cs",
               "RelativeDocumentMoniker": "AplicacionEscrito\\Form1.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\AplicacionEscrito\\AplicacionEscrito\\Form1.cs",
               "RelativeToolTip": "AplicacionEscrito\\Form1.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAAAJkAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAIUAAAAAAAAAAADwv5kAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T23:06:29.003Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\AplicacionEscrito\\AplicacionEscrito\\Form1.cs",
               "RelativeDocumentMoniker": "AplicacionEscrito\\Form1.cs",
@@ -86,49 +82,53 @@
               "RelativeDocumentMoniker": "AplicacionEscrito.Negocio\\VentaNegocio.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\AplicacionEscrito\\AplicacionEscrito.Negocio\\VentaNegocio.cs",
               "RelativeToolTip": "AplicacionEscrito.Negocio\\VentaNegocio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T23:57:29.174Z"
+              "WhenOpened": "2024-10-30T23:57:29.174Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "ElectrodomesticoNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\AplicacionEscrito\\AplicacionEscrito.Negocio\\ElectrodomesticoNegocio.cs",
               "RelativeDocumentMoniker": "AplicacionEscrito.Negocio\\ElectrodomesticoNegocio.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\AplicacionEscrito\\AplicacionEscrito.Negocio\\ElectrodomesticoNegocio.cs",
               "RelativeToolTip": "AplicacionEscrito.Negocio\\ElectrodomesticoNegocio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAjAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T23:57:09.733Z"
+              "WhenOpened": "2024-10-30T23:57:09.733Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "VentaDatos.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\AplicacionEscrito\\AplicacionEscrito.Datos\\VentaDatos.cs",
               "RelativeDocumentMoniker": "AplicacionEscrito.Datos\\VentaDatos.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\AplicacionEscrito\\AplicacionEscrito.Datos\\VentaDatos.cs",
               "RelativeToolTip": "AplicacionEscrito.Datos\\VentaDatos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAmwDkAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T23:56:58.334Z"
+              "WhenOpened": "2024-10-30T23:56:58.334Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ElectrodomesticoDatos.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\AplicacionEscrito\\AplicacionEscrito.Datos\\ElectrodomesticoDatos.cs",
               "RelativeDocumentMoniker": "AplicacionEscrito.Datos\\ElectrodomesticoDatos.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\AplicacionEscrito\\AplicacionEscrito.Datos\\ElectrodomesticoDatos.cs",
               "RelativeToolTip": "AplicacionEscrito.Datos\\ElectrodomesticoDatos.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAAAA8AAABgAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAmwC8AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T23:54:52.607Z"
+              "WhenOpened": "2024-10-30T23:54:52.607Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Venta.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\AplicacionEscrito\\AplicacionEscrito.Entidad\\Venta.cs",
               "RelativeDocumentMoniker": "AplicacionEscrito.Entidad\\Venta.cs",
@@ -136,31 +136,33 @@
               "RelativeToolTip": "AplicacionEscrito.Entidad\\Venta.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T23:53:42.542Z"
+              "WhenOpened": "2024-10-30T23:53:42.542Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Electrodomestico.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\AplicacionEscrito\\AplicacionEscrito.Entidad\\Electrodomestico.cs",
-              "RelativeDocumentMoniker": "AplicacionEscrito.Entidad\\Electrodomestico.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\AplicacionEscrito\\AplicacionEscrito.Entidad\\Electrodomestico.cs",
-              "RelativeToolTip": "AplicacionEscrito.Entidad\\Electrodomestico.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T23:53:29.301Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\AplicacionEscrito\\AplicacionEscrito\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "AplicacionEscrito\\Form1.Designer.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\AplicacionEscrito\\AplicacionEscrito\\Form1.Designer.cs",
               "RelativeToolTip": "AplicacionEscrito\\Form1.Designer.cs",
-              "ViewState": "AgIAAJoAAAAAAAAAAAAmwK0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAswIgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T23:45:05.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Electrodomestico.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\AplicacionEscrito\\AplicacionEscrito.Entidad\\Electrodomestico.cs",
+              "RelativeDocumentMoniker": "AplicacionEscrito.Entidad\\Electrodomestico.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\AplicacionEscrito\\AplicacionEscrito.Entidad\\Electrodomestico.cs",
+              "RelativeToolTip": "AplicacionEscrito.Entidad\\Electrodomestico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T23:53:29.301Z",
               "EditorCaption": ""
             }
           ]

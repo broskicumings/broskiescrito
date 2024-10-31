@@ -3,275 +3,250 @@
     partial class Form1
     {
         private System.ComponentModel.IContainer components = null;
-        private System.Windows.Forms.DataGridView dgvElectrodomesticos;
+        private System.Windows.Forms.DataGridView dgvPropiedades;
         private System.Windows.Forms.DataGridView dgvVentas;
-        private System.Windows.Forms.TextBox txtIdElectrodomestico;
-        private System.Windows.Forms.TextBox txtNombre;
+        private System.Windows.Forms.TextBox txtIdPropiedad;
+        private System.Windows.Forms.TextBox txtDireccion;
         private System.Windows.Forms.TextBox txtPrecio;
-        private System.Windows.Forms.TextBox txtMarca;
+        private System.Windows.Forms.ComboBox cbTipo;
+        private System.Windows.Forms.TextBox txtMetrosCuadrados;
         private System.Windows.Forms.TextBox txtIdVenta;
-        private System.Windows.Forms.TextBox txtIdElectrodomesticoVenta;
+        private System.Windows.Forms.TextBox txtIdProp;
         private System.Windows.Forms.TextBox txtPrecioVenta;
-        private System.Windows.Forms.TextBox txtCantidad;
+        private System.Windows.Forms.TextBox txtDescuento;
         private System.Windows.Forms.TextBox txtIVA;
         private System.Windows.Forms.TextBox txtPrecioTotal;
-        private System.Windows.Forms.Button btnModificarElectrodomestico;
-        private System.Windows.Forms.Button btnEliminarElectrodomestico;
+        private System.Windows.Forms.Button btnAgregarPropiedad;
+        private System.Windows.Forms.Button btnModificarPropiedad;
+        private System.Windows.Forms.Button btnEliminarPropiedad;
         private System.Windows.Forms.Button btnAgregarVenta;
         private System.Windows.Forms.Button btnModificarVenta;
         private System.Windows.Forms.Button btnEliminarVenta;
         private System.Windows.Forms.Button btnImprimirBoleta;
 
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
-                components.Dispose();
-            }
-            base.Dispose(disposing);
-        }
-
         private void InitializeComponent()
         {
-            dgvElectrodomesticos = new DataGridView();
+            dgvPropiedades = new DataGridView();
             dgvVentas = new DataGridView();
-            txtIdElectrodomestico = new TextBox();
-            txtNombre = new TextBox();
+            txtIdPropiedad = new TextBox();
+            txtDireccion = new TextBox();
             txtPrecio = new TextBox();
-            txtMarca = new TextBox();
+            cbTipo = new ComboBox();
+            txtMetrosCuadrados = new TextBox();
             txtIdVenta = new TextBox();
-            txtIdElectrodomesticoVenta = new TextBox();
+            txtIdProp = new TextBox();
             txtPrecioVenta = new TextBox();
-            txtCantidad = new TextBox();
+            txtDescuento = new TextBox();
             txtIVA = new TextBox();
             txtPrecioTotal = new TextBox();
-            btnModificarElectrodomestico = new Button();
-            btnEliminarElectrodomestico = new Button();
+            btnAgregarPropiedad = new Button();
+            btnModificarPropiedad = new Button();
+            btnEliminarPropiedad = new Button();
             btnAgregarVenta = new Button();
             btnModificarVenta = new Button();
             btnEliminarVenta = new Button();
             btnImprimirBoleta = new Button();
-            label1 = new Label();
-            label2 = new Label();
-            btnAgregarElectrodomestico = new Button();
-            ((System.ComponentModel.ISupportInitialize)dgvElectrodomesticos).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvPropiedades).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dgvVentas).BeginInit();
             SuspendLayout();
             // 
-            // dgvElectrodomesticos
+            // dgvPropiedades
             // 
-            dgvElectrodomesticos.Location = new Point(20, 100);
-            dgvElectrodomesticos.Name = "dgvElectrodomesticos";
-            dgvElectrodomesticos.Size = new Size(400, 150);
-            dgvElectrodomesticos.TabIndex = 0;
+            dgvPropiedades.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvPropiedades.Location = new Point(12, 12);
+            dgvPropiedades.Name = "dgvPropiedades";
+            dgvPropiedades.Size = new Size(400, 200);
+            dgvPropiedades.TabIndex = 0;
             // 
             // dgvVentas
             // 
-            dgvVentas.Location = new Point(20, 360);
+            dgvVentas.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvVentas.Location = new Point(12, 236);
             dgvVentas.Name = "dgvVentas";
-            dgvVentas.Size = new Size(400, 150);
+            dgvVentas.Size = new Size(400, 200);
             dgvVentas.TabIndex = 1;
             // 
-            // txtIdElectrodomestico
+            // txtIdPropiedad
             // 
-            txtIdElectrodomestico.Location = new Point(450, 100);
-            txtIdElectrodomestico.Name = "txtIdElectrodomestico";
-            txtIdElectrodomestico.PlaceholderText = "ID Electrodoméstico";
-            txtIdElectrodomestico.Size = new Size(200, 23);
-            txtIdElectrodomestico.TabIndex = 2;
+            txtIdPropiedad.Location = new Point(450, 12);
+            txtIdPropiedad.Name = "txtIdPropiedad";
+            txtIdPropiedad.Size = new Size(200, 23);
+            txtIdPropiedad.TabIndex = 2;
             // 
-            // txtNombre
+            // txtDireccion
             // 
-            txtNombre.Location = new Point(450, 135);
-            txtNombre.Name = "txtNombre";
-            txtNombre.PlaceholderText = "Nombre";
-            txtNombre.Size = new Size(200, 23);
-            txtNombre.TabIndex = 3;
+            txtDireccion.Location = new Point(450, 40);
+            txtDireccion.Name = "txtDireccion";
+            txtDireccion.Size = new Size(200, 23);
+            txtDireccion.TabIndex = 3;
             // 
             // txtPrecio
             // 
-            txtPrecio.Location = new Point(450, 183);
+            txtPrecio.Location = new Point(450, 70);
             txtPrecio.Name = "txtPrecio";
-            txtPrecio.PlaceholderText = "Precio";
             txtPrecio.Size = new Size(200, 23);
             txtPrecio.TabIndex = 4;
             // 
-            // txtMarca
+            // cbTipo
             // 
-            txtMarca.Location = new Point(450, 227);
-            txtMarca.Name = "txtMarca";
-            txtMarca.PlaceholderText = "Marca";
-            txtMarca.Size = new Size(200, 23);
-            txtMarca.TabIndex = 5;
+            cbTipo.DropDownStyle = ComboBoxStyle.DropDownList;
+            cbTipo.FormattingEnabled = true;
+            cbTipo.Location = new Point(450, 100);
+            cbTipo.Name = "cbTipo";
+            cbTipo.Size = new Size(200, 23);
+            cbTipo.TabIndex = 5;
+            // 
+            // txtMetrosCuadrados
+            // 
+            txtMetrosCuadrados.Location = new Point(450, 130);
+            txtMetrosCuadrados.Name = "txtMetrosCuadrados";
+            txtMetrosCuadrados.Size = new Size(200, 23);
+            txtMetrosCuadrados.TabIndex = 6;
             // 
             // txtIdVenta
             // 
-            txtIdVenta.Location = new Point(450, 345);
+            txtIdVenta.Location = new Point(450, 223);
             txtIdVenta.Name = "txtIdVenta";
-            txtIdVenta.PlaceholderText = "ID Venta";
             txtIdVenta.Size = new Size(200, 23);
-            txtIdVenta.TabIndex = 6;
+            txtIdVenta.TabIndex = 7;
             // 
-            // txtIdElectrodomesticoVenta
+            // txtIdProp
             // 
-            txtIdElectrodomesticoVenta.Location = new Point(450, 379);
-            txtIdElectrodomesticoVenta.Name = "txtIdElectrodomesticoVenta";
-            txtIdElectrodomesticoVenta.PlaceholderText = "ID Electrodoméstico";
-            txtIdElectrodomesticoVenta.Size = new Size(200, 23);
-            txtIdElectrodomesticoVenta.TabIndex = 7;
+            txtIdProp.Location = new Point(450, 252);
+            txtIdProp.Name = "txtIdProp";
+            txtIdProp.Size = new Size(200, 23);
+            txtIdProp.TabIndex = 8;
             // 
             // txtPrecioVenta
             // 
-            txtPrecioVenta.Location = new Point(450, 408);
+            txtPrecioVenta.Location = new Point(450, 291);
             txtPrecioVenta.Name = "txtPrecioVenta";
-            txtPrecioVenta.PlaceholderText = "Precio";
             txtPrecioVenta.Size = new Size(200, 23);
-            txtPrecioVenta.TabIndex = 8;
+            txtPrecioVenta.TabIndex = 9;
             // 
-            // txtCantidad
+            // txtDescuento
             // 
-            txtCantidad.Location = new Point(450, 446);
-            txtCantidad.Name = "txtCantidad";
-            txtCantidad.PlaceholderText = "Cantidad";
-            txtCantidad.Size = new Size(200, 23);
-            txtCantidad.TabIndex = 9;
+            txtDescuento.Location = new Point(450, 329);
+            txtDescuento.Name = "txtDescuento";
+            txtDescuento.Size = new Size(200, 23);
+            txtDescuento.TabIndex = 10;
+            txtDescuento.TextChanged += txtDescuento_TextChanged;
             // 
             // txtIVA
             // 
-            txtIVA.Location = new Point(450, 487);
+            txtIVA.Location = new Point(450, 358);
             txtIVA.Name = "txtIVA";
-            txtIVA.PlaceholderText = "IVA";
             txtIVA.Size = new Size(200, 23);
-            txtIVA.TabIndex = 10;
+            txtIVA.TabIndex = 11;
             // 
             // txtPrecioTotal
             // 
-            txtPrecioTotal.Location = new Point(450, 523);
+            txtPrecioTotal.Location = new Point(450, 397);
             txtPrecioTotal.Name = "txtPrecioTotal";
-            txtPrecioTotal.PlaceholderText = "Precio Total";
             txtPrecioTotal.Size = new Size(200, 23);
-            txtPrecioTotal.TabIndex = 11;
+            txtPrecioTotal.TabIndex = 12;
             // 
-            // btnModificarElectrodomestico
+            // btnAgregarPropiedad
             // 
-            btnModificarElectrodomestico.Location = new Point(700, 176);
-            btnModificarElectrodomestico.Name = "btnModificarElectrodomestico";
-            btnModificarElectrodomestico.Size = new Size(150, 30);
-            btnModificarElectrodomestico.TabIndex = 13;
-            btnModificarElectrodomestico.Text = "Modificar Electrodoméstico";
-            btnModificarElectrodomestico.Click += btnModificarElectrodomestico_Click;
+            btnAgregarPropiedad.Location = new Point(700, 12);
+            btnAgregarPropiedad.Name = "btnAgregarPropiedad";
+            btnAgregarPropiedad.Size = new Size(150, 23);
+            btnAgregarPropiedad.TabIndex = 13;
+            btnAgregarPropiedad.Text = "Agregar Propiedad";
+            btnAgregarPropiedad.UseVisualStyleBackColor = true;
+            btnAgregarPropiedad.Click += btnAgregarPropiedad_Click;
             // 
-            // btnEliminarElectrodomestico
+            // btnModificarPropiedad
             // 
-            btnEliminarElectrodomestico.Location = new Point(700, 222);
-            btnEliminarElectrodomestico.Name = "btnEliminarElectrodomestico";
-            btnEliminarElectrodomestico.Size = new Size(150, 30);
-            btnEliminarElectrodomestico.TabIndex = 14;
-            btnEliminarElectrodomestico.Text = "Eliminar Electrodoméstico";
-            btnEliminarElectrodomestico.Click += btnEliminarElectrodomestico_Click;
+            btnModificarPropiedad.Location = new Point(700, 42);
+            btnModificarPropiedad.Name = "btnModificarPropiedad";
+            btnModificarPropiedad.Size = new Size(150, 23);
+            btnModificarPropiedad.TabIndex = 14;
+            btnModificarPropiedad.Text = "Modificar Propiedad";
+            btnModificarPropiedad.UseVisualStyleBackColor = true;
+            btnModificarPropiedad.Click += btnModificarPropiedad_Click;
+            // 
+            // btnEliminarPropiedad
+            // 
+            btnEliminarPropiedad.Location = new Point(700, 72);
+            btnEliminarPropiedad.Name = "btnEliminarPropiedad";
+            btnEliminarPropiedad.Size = new Size(150, 23);
+            btnEliminarPropiedad.TabIndex = 15;
+            btnEliminarPropiedad.Text = "Eliminar Propiedad";
+            btnEliminarPropiedad.UseVisualStyleBackColor = true;
+            btnEliminarPropiedad.Click += btnEliminarPropiedad_Click;
             // 
             // btnAgregarVenta
             // 
-            btnAgregarVenta.Location = new Point(700, 345);
+            btnAgregarVenta.Location = new Point(700, 223);
             btnAgregarVenta.Name = "btnAgregarVenta";
-            btnAgregarVenta.Size = new Size(150, 30);
-            btnAgregarVenta.TabIndex = 15;
+            btnAgregarVenta.Size = new Size(150, 23);
+            btnAgregarVenta.TabIndex = 16;
             btnAgregarVenta.Text = "Agregar Venta";
+            btnAgregarVenta.UseVisualStyleBackColor = true;
             btnAgregarVenta.Click += btnAgregarVenta_Click;
             // 
             // btnModificarVenta
             // 
-            btnModificarVenta.Location = new Point(700, 408);
+            btnModificarVenta.Location = new Point(700, 252);
             btnModificarVenta.Name = "btnModificarVenta";
-            btnModificarVenta.Size = new Size(150, 30);
-            btnModificarVenta.TabIndex = 16;
+            btnModificarVenta.Size = new Size(150, 23);
+            btnModificarVenta.TabIndex = 17;
             btnModificarVenta.Text = "Modificar Venta";
+            btnModificarVenta.UseVisualStyleBackColor = true;
             btnModificarVenta.Click += btnModificarVenta_Click;
             // 
             // btnEliminarVenta
             // 
-            btnEliminarVenta.Location = new Point(700, 467);
+            btnEliminarVenta.Location = new Point(700, 281);
             btnEliminarVenta.Name = "btnEliminarVenta";
-            btnEliminarVenta.Size = new Size(150, 30);
-            btnEliminarVenta.TabIndex = 17;
+            btnEliminarVenta.Size = new Size(150, 23);
+            btnEliminarVenta.TabIndex = 18;
             btnEliminarVenta.Text = "Eliminar Venta";
+            btnEliminarVenta.UseVisualStyleBackColor = true;
             btnEliminarVenta.Click += btnEliminarVenta_Click;
             // 
             // btnImprimirBoleta
             // 
-            btnImprimirBoleta.Location = new Point(700, 523);
+            btnImprimirBoleta.Location = new Point(700, 310);
             btnImprimirBoleta.Name = "btnImprimirBoleta";
-            btnImprimirBoleta.Size = new Size(150, 30);
-            btnImprimirBoleta.TabIndex = 18;
-            btnImprimirBoleta.Text = "Imprimir Boleta";
+            btnImprimirBoleta.Size = new Size(150, 23);
+            btnImprimirBoleta.TabIndex = 19;
+            btnImprimirBoleta.Text = "Descargar Boleta PDF";
+            btnImprimirBoleta.UseVisualStyleBackColor = true;
             btnImprimirBoleta.Click += btnImprimirBoleta_Click;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 26.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.Crimson;
-            label1.Location = new Point(20, 27);
-            label1.Name = "label1";
-            label1.Size = new Size(302, 47);
-            label1.TabIndex = 19;
-            label1.Text = "Electrodomesticos";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 26.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.CornflowerBlue;
-            label2.Location = new Point(20, 300);
-            label2.Name = "label2";
-            label2.Size = new Size(123, 47);
-            label2.TabIndex = 20;
-            label2.Text = "Ventas";
-            label2.Click += label2_Click;
-            // 
-            // btnAgregarElectrodomestico
-            // 
-            btnAgregarElectrodomestico.Location = new Point(700, 128);
-            btnAgregarElectrodomestico.Name = "btnAgregarElectrodomestico";
-            btnAgregarElectrodomestico.Size = new Size(150, 30);
-            btnAgregarElectrodomestico.TabIndex = 12;
-            btnAgregarElectrodomestico.Text = "Agregar Electrodoméstico";
-            btnAgregarElectrodomestico.Click += btnAgregarElectrodomestico_Click;
             // 
             // Form1
             // 
-            ClientSize = new Size(1000, 600);
-            Controls.Add(label2);
-            Controls.Add(label1);
-            Controls.Add(dgvElectrodomesticos);
+            BackColor = Color.Cornsilk;
+            ClientSize = new Size(1006, 477);
+            Controls.Add(dgvPropiedades);
             Controls.Add(dgvVentas);
-            Controls.Add(txtIdElectrodomestico);
-            Controls.Add(txtNombre);
+            Controls.Add(txtIdPropiedad);
+            Controls.Add(txtDireccion);
             Controls.Add(txtPrecio);
-            Controls.Add(txtMarca);
+            Controls.Add(cbTipo);
+            Controls.Add(txtMetrosCuadrados);
             Controls.Add(txtIdVenta);
-            Controls.Add(txtIdElectrodomesticoVenta);
+            Controls.Add(txtIdProp);
             Controls.Add(txtPrecioVenta);
-            Controls.Add(txtCantidad);
+            Controls.Add(txtDescuento);
             Controls.Add(txtIVA);
             Controls.Add(txtPrecioTotal);
-            Controls.Add(btnAgregarElectrodomestico);
-            Controls.Add(btnModificarElectrodomestico);
-            Controls.Add(btnEliminarElectrodomestico);
+            Controls.Add(btnAgregarPropiedad);
+            Controls.Add(btnModificarPropiedad);
+            Controls.Add(btnEliminarPropiedad);
             Controls.Add(btnAgregarVenta);
             Controls.Add(btnModificarVenta);
             Controls.Add(btnEliminarVenta);
             Controls.Add(btnImprimirBoleta);
             Name = "Form1";
-            Text = "Gestión de Electrodomésticos y Ventas";
-            ((System.ComponentModel.ISupportInitialize)dgvElectrodomesticos).EndInit();
+            Text = "Aplicación Inmobiliaria";
+            ((System.ComponentModel.ISupportInitialize)dgvPropiedades).EndInit();
             ((System.ComponentModel.ISupportInitialize)dgvVentas).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
-
-        private Label label1;
-        private Label label2;
-        private Button btnAgregarElectrodomestico;
     }
 }
+
