@@ -56,7 +56,7 @@
               "RelativeDocumentMoniker": "AplicacionEscrito\\Form1.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\AplicacionEscrito\\AplicacionEscrito\\Form1.cs",
               "RelativeToolTip": "AplicacionEscrito\\Form1.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAADwv5kAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAIUAAAAAAAAAAADwv5EAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T23:06:29.003Z",
               "IsPinned": true,
@@ -71,8 +71,7 @@
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\AplicacionEscrito\\AplicacionEscrito\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "AplicacionEscrito\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T02:08:36.659Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-31T02:08:36.659Z"
             },
             {
               "$type": "Document",
@@ -84,8 +83,7 @@
               "RelativeToolTip": "AplicacionEscrito.Negocio\\VentaNegocio.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T23:57:29.174Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T23:57:29.174Z"
             },
             {
               "$type": "Document",
@@ -97,8 +95,7 @@
               "RelativeToolTip": "AplicacionEscrito.Negocio\\ElectrodomesticoNegocio.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T23:57:09.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T23:57:09.733Z"
             },
             {
               "$type": "Document",
@@ -110,8 +107,7 @@
               "RelativeToolTip": "AplicacionEscrito.Datos\\VentaDatos.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAmwDkAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T23:56:58.334Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T23:56:58.334Z"
             },
             {
               "$type": "Document",
@@ -123,8 +119,7 @@
               "RelativeToolTip": "AplicacionEscrito.Datos\\ElectrodomesticoDatos.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAmwC8AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T23:54:52.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T23:54:52.607Z"
             },
             {
               "$type": "Document",
@@ -136,8 +131,7 @@
               "RelativeToolTip": "AplicacionEscrito.Entidad\\Venta.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T23:53:42.542Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T23:53:42.542Z"
             },
             {
               "$type": "Document",
@@ -149,8 +143,7 @@
               "RelativeToolTip": "AplicacionEscrito\\Form1.Designer.cs",
               "ViewState": "AgIAAHYAAAAAAAAAAAAswIgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T23:45:05.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T23:45:05.389Z"
             },
             {
               "$type": "Document",
@@ -162,8 +155,7 @@
               "RelativeToolTip": "AplicacionEscrito.Entidad\\Electrodomestico.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T23:53:29.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T23:53:29.301Z"
             }
           ]
         }
